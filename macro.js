@@ -256,7 +256,7 @@ function macro(config, source, defines, options){
 }
 
 macro.jsConfig = {
-  macroPrefix: '#',
+  macroPrefix: '!',
   stringQuotes: [ '\'', '"', '`' ],
   singleLineComment: '//',
   multiLineComment: { start: '/*', end: '*/' },
