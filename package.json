@@ -1,6 +1,6 @@
 {
-  "name": "macrojs-loader",
-  "version": "0.1.1",
+  "name": "xx-macrojs-loader",
+  "version": "0.1.2",
   "description": "Macro preprocessor with inlineable JS for webpack",
   "main": "index.js",
   "scripts": {
@@ -11,11 +11,11 @@
     "macro",
     "loader"
   ],
-  "author": "Ilja Jusupov <illvdg13@gmail.com> (https://github.com/gro-ove)",
+  "author": "Xuanxiaojing <546292379@qq.com> (https://github.com/Xuanxiaojing)",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gro-ove/macrojs-loader.git"
+    "url": "git+https://github.com/Xuanxiaojing/macrojs-loader.git"
   },
   "dependencies": {
     "loader-utils": "^3.2.0"

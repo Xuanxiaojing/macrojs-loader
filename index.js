@@ -1,3 +1,10 @@
+/*
+ * @Author: xuanxiaojing@bytedance.com
+ * @Date: 2021-12-28 16:29:28
+ * @LastEditors: xuanxiaojing@bytedance.com
+ * @LastEditTime: 2021-12-28 21:08:36
+ * @Description: file content
+ */
 var fs = require('fs');
 var path = require('path');
 var macro = require('./macro');
@@ -19,7 +26,7 @@ function readDefines(filename){
 }
 
 module.exports = function(content) {
-  var query = loaderUtils.getOptions(this.query);
+  var query = this.getOptions(this.query);
   this.cacheable && this.cacheable(query?.cacheable);
 
   var params = {
