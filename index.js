@@ -19,9 +19,8 @@ function readDefines(filename){
 }
 
 module.exports = function(content) {
-  var query = loaderUtils.parseQuery(this.query);
-  // this.cacheable && query?.cacheable && this.cacheable();
-  this.cacheable(false);
+  var query = loaderUtils.getOptions(this.query);
+  this.cacheable && this.cacheable(query?.cacheable);
 
   var params = {
     mode: null,
