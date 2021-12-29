@@ -2,7 +2,7 @@
  * @Author: xuanxiaojing@bytedance.com
  * @Date: 2021-12-28 16:29:28
  * @LastEditors: xuanxiaojing@bytedance.com
- * @LastEditTime: 2021-12-28 21:08:36
+ * @LastEditTime: 2021-12-29 11:47:54
  * @Description: file content
  */
 var fs = require('fs');
@@ -27,7 +27,7 @@ function readDefines(filename){
 
 module.exports = function(content) {
   var query = this.getOptions(this.query);
-  this.cacheable && this.cacheable(query?.cacheable);
+  this.cacheable && this.cacheable(query.cacheable);
 
   var params = {
     mode: null,
